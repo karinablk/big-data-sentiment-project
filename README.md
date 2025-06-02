@@ -55,7 +55,7 @@ While model performance was acceptable (F1 ≈ 88%), the focus of the project wa
 
 ## Repository Contents
 
-- `athena_sentiment_analysis.sql`: SQL queries for feature prep
+- `athena_sentiment_analysis.sql`: SQL queries for data visualization
 - `notebook_pyspark_databricks.dbc`: PySpark notebook (Databricks)
 - `elon_musk_sentiment_quicksight_dashboard.pdf`: Snapshot of dashboard
 - `big_data_project_presentation.pdf`: Full project summary and visuals
