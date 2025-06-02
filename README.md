@@ -13,7 +13,7 @@ The main purpose of the project was to explore how to efficiently build a data p
 ## Dataset Overview
 
 - **Source**: Fetched tweets mentioning "Elon Musk"
-- **Scope**: 2-day period, ~14,000 tweets
+- **Scope**: 2-day period, ~329,000 tweets
 - **Sentiment**: Pre-labeled using VADER (Positive / Neutral / Negative)
 - **Storage**: Stored as CSV in Amazon S3, processed in Databricks
 
@@ -42,7 +42,7 @@ The full pipeline consisted of:
 - Vocabulary patterns vary significantly by sentiment class
 - Most tweets were retweets; only 27% were unique
 
-## Optional Modeling Notes
+## Modeling Notes
 
 A basic sentiment model using logistic regression was tested as part of the pipeline validation.  
 While model performance was acceptable (F1 ≈ 88%), the focus of the project was on scalable data handling, not on maximizing model accuracy.
